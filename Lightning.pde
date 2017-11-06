@@ -10,9 +10,10 @@ void draw() {
   stroke(0);
   for(int y = 0; y < 10; y++){
     while (endX<600) {
-      endX = startX + (int)(Math.random()*18-9);
-      endY = startY - (int)(Math.random()*10);
-      ellipse(startX, startY, endX, endY);
+      endX = startX + (int)(Math.random()*50-25);
+      endY = startY - (int)(Math.random()*25);
+      fill((int)(Math.random()*255-1),(int)(Math.random()*255-1),(int)(Math.random()*255-1));
+      ellipse(startX, startY, 10, 10);
       startX = endX;
       startY = endY;
     }
