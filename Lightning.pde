@@ -25,5 +25,4 @@ void mousePressed() {
   startY = 600;
   endX = 300;
   endY = 0;
-  x+=10;
 }
